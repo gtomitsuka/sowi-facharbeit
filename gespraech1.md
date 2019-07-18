@@ -12,13 +12,14 @@ T: Also sind sie der Meinung, dass Europa ihre Banken überreguliert?
 
 D: Ja. Es ist schlecht für Europa, wenn die lokalen Banken ihre Investment Banking Divisions schließen oder deutlich verkleinern. Zum Beispiel: der Großteil der 18000 abgebauten Stellen der Deutschen Bank kommt von der Equities Division _(Ergänzung durch Verfasser: mit Equities ist das Aktiengeschäft der Investmentbanken gemeint, welches sich um die Emission von Fremd- und Eigenkapital auf Primärmärkten und um den Wertpapierhandel beschäftigt)_. 
 
-T: Natürlich ist das schlecht von einer Bankenperspektive. Aber was bedeutet das für die Re
-
-D: Dass die Rolle der Investmentbank von europäischen Banken durchgeführt wird ist, auch von einer Regierungsperspektive, wichtig. Zum einen haben amerikanische Banken weniger Interesse daran, das europäische Geschäft gebunden zu halten.
-
 T: Warum geht's Equities so schlecht?
 
 D: Leider ist es kaum bzw. nicht profitabel, dieses Geschäft hier zu betreiben. Deutsche Bank hat diesen Stellenabbau durch ihre prekäre finanzielle Lage besonders schnell betrieben, allerdings bauen relativ viele europäische Banken auf anderer Weise Investmentbanking Stellen ab _(spätere Ergänzung: das bedeutet Rollen nicht neu besetzen wenn Mitarbeiter in Ruhestand gehen oder Stellen in profitableren Divisionen wie Commercial Banking verlegen)_. Zudem erreicht 
+
+T: Natürlich ist das schlecht von einer Bankenperspektive. Aber was bedeutet das für die Re
+
+D: Dass die Rolle der Investmentbank von europäischen Banken durchgeführt wird ist, auch von einer Regierungsperspektive, wichtig. Zum einen haben amerikanische Banken weniger Interesse daran, ihr europäisches InvestmentbankingGeschäft zu halten.
+
 
 
 *Pseudonym für Anonymitätszwecke
