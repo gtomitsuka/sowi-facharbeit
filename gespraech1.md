@@ -41,6 +41,8 @@ T: Ist das System Ihrer Meinung bereit, diese Krise zu bewältigen?
 
 D: Wahrscheinlich ja, allerdings kann man mit weniger Liquidität diesmal rechnen - diese Märkte sind die letzten zwei Jahre extrem illiquide, da die Banken deutlich weniger Geld zur Verfügung haben und dieses Geld nicht zum Market Making einsetzen möchten. Das wird sich im Fall einer Krise nicht verbessern - die Märkte werden dadurch womöglich einen noch größeren Kollaps als 2008 sehen, aber ich erwarte nicht, dass ein Fall wie Lehman sich wiederholt.
 
-T: Interessant. Danke für Ihre Zeit!
+T: Interessant. Und was sollten die Regulatoren statt der jetzigen Regulierungen tun?
+
+D: Die Quantitative Lockerung sofort stoppen. Die EZB hat zu viele überbewertete Assets auf ihrer Bilanz - das ist de facto eine Spekulationsblase, die möglichst schnell zerplatzen sollte - daher hoffe ich, dass die Rezession innerhalb der nächsten zwei Jahre beginnt. Je länger das weitergeht, desto größer wird der Unterschied zwischen dem intrinsischen Wert und dem Handelswert der Assets, und desto schlimmer wird der Krach. Ich hoffe auch dass die Leitzinsen wieder st
 
 *Pseudonym für Anonymitätszwecke
