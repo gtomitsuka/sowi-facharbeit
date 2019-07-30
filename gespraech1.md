@@ -43,6 +43,8 @@ D: Wahrscheinlich ja, allerdings kann man mit weniger Liquidität diesmal rechne
 
 T: Interessant. Und was sollten die Regulatoren statt der jetzigen Regulierungen tun?
 
-D: Die Quantitative Lockerung sofort stoppen. Die EZB hat zu viele überbewertete Assets auf ihrer Bilanz - das ist de facto eine Spekulationsblase, die möglichst schnell zerplatzen sollte - daher hoffe ich, dass die Rezession innerhalb der nächsten zwei Jahre beginnt. Je länger das weitergeht, desto größer wird der Unterschied zwischen dem intrinsischen Wert und dem Handelswert der Assets, und desto schlimmer wird der Krach. Ich hoffe auch dass die Leitzinsen wieder st
+D: Die Quantitative Lockerung sofort stoppen. Die EZB hat zu viele überbewertete Assets auf ihrer Bilanz - das ist de facto eine Spekulationsblase, die möglichst schnell zerplatzen sollte - daher hoffe ich, dass die Rezession innerhalb der nächsten zwei Jahre beginnt. Je länger das weitergeht, desto größer wird der Unterschied zwischen dem intrinsischen Wert und dem Handelswert der Assets, und desto schlimmer wird der Krach. Ich hoffe auch dass die Leitzinsen wieder steigen, denn die EZB wäre nicht handlungsfähig im Fall einer Krise.
+
+T: Das müsste es gewesen sein. Vielen Dank für Ihre Zeit!
 
 *Pseudonym für Anonymitätszwecke
