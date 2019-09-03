@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {0.1}Einleitung}{1}
+\contentsline {subsection}{\numberline {0.1.1}Themawahl}{1}
+\contentsline {subsection}{\numberline {0.1.2}Vorgang}{1}
