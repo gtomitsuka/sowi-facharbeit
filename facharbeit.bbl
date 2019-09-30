@@ -1,0 +1,325 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{acharyar}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AVV}{%
+         family={Acharya},
+         familyi={A\bibinitperiod},
+         given={Viral\bibnamedelima V.},
+         giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Richardson},
+         familyi={R\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AVVRM1}
+    \strng{fullhash}{AVVRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{195\bibrangedash 210}
+    \field{title}{Causes of the Financial Crisis}
+    \verb{url}
+    \verb https://ssrn.com/abstract=1514984
+    \endverb
+    \field{journaltitle}{Critical Review, Vol. 21, Nos. 2 \& 3}
+    \field{month}{05}
+    \field{year}{2009}
+    \field{urlday}{25}
+    \field{urlmonth}{08}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{bordo}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=BM}{%
+         family={Bordo},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {University of Chicago Press}%
+    }
+    \strng{namehash}{BM1}
+    \strng{fullhash}{BM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1992}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{chapter}{The Bretton Woods International Monetary System: A
+  Historical Overview}
+    \field{isbn}{0-226-06587-1}
+    \field{pages}{3\bibrangedash 108}
+    \field{title}{A Retrospective on the Bretton Woods System: Lessons for
+  International Monetary Reform}
+    \verb{url}
+    \verb https://www.nber.org/chapters/c6867.pdf
+    \endverb
+    \field{month}{03}
+    \field{year}{1992}
+    \field{urlday}{27}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{chackocred}{book}{}
+    \name{author}{4}{}{%
+      {{hash=CG}{%
+         family={Chacko},
+         familyi={C\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sjoman},
+         familyi={S\bibinitperiod},
+         given={Anders},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DV}{%
+         family={Dessain},
+         familyi={D\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Motohashi},
+         familyi={M\bibinitperiod},
+         given={Hideto},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Wharton School}%
+    }
+    \strng{namehash}{CG+1}
+    \strng{fullhash}{CGSADVMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{isbn}{0-131-46744-1}
+    \field{subtitle}{A Primer on Credit Risk, Modeling, and Instruments}
+    \field{title}{Credit Derivatives}
+    \field{year}{2006}
+  \endentry
+
+  \entry{nytcres}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CJ}{%
+         family={Creswell},
+         familyi={C\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Bajaj},
+         familyi={B\bibinitperiod},
+         given={Vikas},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJBV1}
+    \strng{fullhash}{CJBV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Home Lender Is Seeking Bankruptcy}
+    \verb{url}
+    \verb https://www.nytimes.com/2007/04/03/business/03lend.html
+    \endverb
+    \field{journaltitle}{The New York Times}
+    \field{month}{04}
+    \field{year}{2007}
+    \field{urlday}{21}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{crottycam}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CJ}{%
+         family={Crotty},
+         familyi={C\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ1}
+    \strng{fullhash}{CJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{563\bibrangedash 580}
+    \field{title}{Structural causes of the global financial crisis: a critical
+  assessment of the 'new financial architecture'}
+    \verb{url}
+    \verb https://academic.oup.com/cje/article/33/4/563/1730705
+    \endverb
+    \field{journaltitle}{Cambridge Journal of Economics, Volume 33, Issue 4}
+    \field{month}{04}
+    \field{year}{2009}
+    \field{urlday}{29}
+    \field{urlmonth}{07}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{dimonyt}{online}{}
+    \name{author}{1}{}{%
+      {{hash=DJ}{%
+         family={Dimon},
+         familyi={D\bibinitperiod},
+         given={Jamie},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJ1}
+    \strng{fullhash}{DJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{subtitle}{CNBC Interview mit Andrew Ross Sorkin}
+    \field{title}{Jamie Dimon On The 2008 Crisis}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=QE3QwTA5ujE
+    \endverb
+    \field{month}{09}
+    \field{year}{2018}
+    \field{urlday}{29}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{wsjdoss}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DK}{%
+         family={Doss},
+         familyi={D\bibinitperiod},
+         given={Kristina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DK1}
+    \strng{fullhash}{DK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Ownit Mortgage Files For Bankruptcy Protection}
+    \verb{url}
+    \verb https://www.wsj.com/articles/SB116775515272364964
+    \endverb
+    \field{journaltitle}{The Wall Street Journal}
+    \field{month}{01}
+    \field{year}{2007}
+    \field{urlday}{10}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{gs1}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=HJ}{%
+         family={Hatzius},
+         familyi={H\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Learning from a Century of US Recessions}
+    \verb{url}
+    \verb https://www.goldmansachs.com/insights/pages/learning-from-a-century-u
+    \verb s-recessions/report.pdf
+    \endverb
+    \field{journaltitle}{Goldman Sachs -- US Economics Analyst}
+    \field{month}{01}
+    \field{year}{2019}
+    \field{urlday}{15}
+    \field{urlmonth}{07}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{sherman2009short}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Sherman},
+         familyi={S\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Center for Economic}%
+      {Policy Research}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{A short history of financial deregulation in the United
+  States}
+    \verb{url}
+    \verb https://www.openthegovernment.org/wp-content/uploads/other-files/otg/
+    \verb dereg-timeline-2009-07.pdf
+    \endverb
+    \field{month}{07}
+    \field{year}{2009}
+    \field{urlday}{28}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+\enddatalist
+\endinput

@@ -1,4 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {0.1}Einleitung}{1}
-\contentsline {subsection}{\numberline {0.1.1}Themawahl}{1}
-\contentsline {subsection}{\numberline {0.1.2}Vorgang}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Themawahl}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Vorgang}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Amerikanische Immobilienkrise}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Der Hypothekenmarkt}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Der Subprime-Markt}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}R\"uckgang ab 2006}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Globale Finanzkrise}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Theoretische Grundlage des modernen Bankings}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Die alte Finanzarchitektur}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Die neue Finanzarchitektur}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Strukturelle Probleme}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Finanzielle Innovation und strukturierte Produkte}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Einfluss auf Europa}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}\foreignquote *{english}{Skin in the Game} - Versagen des Risikomanagements}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}VAR-Modellierung}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Kurzfristige Ma\IeC {\ss }nahmen der Regulatoren}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Mittel- und langfristige Ma\IeC {\ss }nahmen der Regulatoren}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Fazit und Handlungsempfehlungen}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literaturverzeichnis}{8}

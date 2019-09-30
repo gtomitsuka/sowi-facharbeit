@@ -1,34 +1,92 @@
-\documentclass[a4paper,draft]{report}
-\usepackage[ngerman]{babel}
+\documentclass[a4paper,draft,11pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[english,ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[autostyle=true]{csquotes}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage[
+  backend=bibtex,
+  style=authoryear,
+  firstinits=true,
+  uniquename=init,
+  sortlocale=de_DE
+]
+{biblatex}
+\DeclareNameAlias{sortname}{last-first}
+\DeclareFieldFormat*{title}{#1}
+\DefineBibliographyStrings{ngerman}{
+   andothers = {{et\,al\adddot}},            
+}
+\addbibresource{ref.bib}
+\geometry{
+  left=25mm,
+  right=35mm,
+  top=30mm,
+  bottom=20mm,
+  bindingoffset=5mm
+}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+\titlespacing{\chapter}{0pt}{25pt}{10pt}
+
+\renewcommand{\rmdefault}{phv} % Arial
+\renewcommand{\sfdefault}{phv} % Arial
+\renewcommand{\headrulewidth}{0.1pt} 
+\interfootnotelinepenalty=10000
+
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
 \begin{document}
 \title{Wurden die richtigen Lehren aus der
-Finanzkrise 2007-2009 gezogen?}
-\author{Gabriel Tomitsuka}
-\date{Oktober 2019}
+    Finanzkrise 2007-2009 gezogen?}
+\author{%
+    Facharbeit im Leistungskurs Sozialwissenschaften \\
+    Ravensberger-Gymnasium Herford \\ \\
+    \textit{eingereicht bei} \\
+    Herrn Visser \\ \\
+    \textit{vorgelegt von} \\
+    Gabriel Tomitsuka 
+    }
+\date{Herford, Oktober 2019}
 \maketitle
 \tableofcontents
-\section{Einleitung}
-Am 2. April 2007 meldete der Real Estate Investment Trust (REIT) New Century die Insolvenz an.
-Wenige Monate davor hatte er eine
-Marktkapitalisation von \$1.75 Milliarden.
-<story zu anfang>
-\subsection{Themawahl}
+\newpage
+\chapter{Einleitung}
+\section{Themawahl}
+Laut dem Gesch\"aftsf\"uhrer der Investmentbank J.P. Morgan
+Chase Jamie Dimon war die Woche des 15. Oktober 2008, also ab dem
+Tag, wo Lehman Brothers Insolvenz angemeldet hat,
+mit der Woche des \enquote{Great Crashes} ab dem 24. Oktobers 1929
+von einer finanzwirtschaftlichen Perspektive vergleichbar,
+allerdings hat die rechtzeitige Reaktion der Regierungen und
+Regulatoren das Schlimmste vermieden \parencite{dimonyt}.
+
 Ich habe mich oft gefragt, wie ein Markt, der
 von kleinen, amerikanischen Regionalbanken mit
 staatlicher Unterstützung
-dominiert wird, zum Fall von als "Too Big To
-Fail" verstandene Investmentbanken wie Lehman
+dominiert wird, zum Fall von als \enquote{Too Big To
+Fail} verstandene Investmentbanken wie Lehman
 Brothers und Merill Lynch
 führen konnte. Besonders interessant fand ich,
 dass auch Banken in anderen Kontinenten (wie
 bspw. die Dresdner Bank) dadurch
-aufgekauft werden mussten. Ich wollte genauer
+aufgekauft werden mussten.
+
+Ich wollte genauer
 ermitteln, wie stark diese Vernetzung damals
 war und heute ist, und ob
 die kurzfristigen Maßnahmen durch
 Zentralbanker, Banken/Fonds und Regulatoren
 womöglich eine noch schlimmere Krise
-vermieden haben.
+vermieden haben -- also ob die Behauptung Dimons
+stimmt.
+
 Allerdings werde ich mich nicht besonders
 lange mit einer historischen Betrachtung
 beschäftigen, ob die kurzfristigen
@@ -41,22 +99,26 @@ denen ich mich im Rahmen meiner Facharbeit ausgetauscht habe, waren
 der Ansicht, dass wir uns spät im Marktzyklus
 befinden, und die Frühindikatoren zeigen
 ähnliche Signale.
+
 Daher ist es besonders wichtig zu
 überprüfen, inwiefern das gesamtwirtschaftliche System auf die nächste Rezession vorbereitet ist.
-\subsection{Vorgang}
+\section{Vorgang}
 Die Ursachen für die Finanzkrise 2008 können 
-in zwei Gruppen unterteilt werden: realwirtschaftliche
-Ursachen der Immobilienkrise und die darausfolgenden
-finanzwirtschaftliche Ursachen der globalen Finanzkrise.
-Ueber die realwirtschaftlichen Ursachen besteht weithin
+in zwei Gruppen unterteilt werden: Ursachen der Immobilienkrise
+in den Vereinigten Staaten und die finanzwirtschaftliche
+Ursachen der globalen Finanzkrise.
+
+\"Uber die realwirtschaftlichen Ursachen besteht weithin
 Einigkeit innerhalb der Wirtschaftswissenschaften, daher
-werde ich verkuerzt auf sie eingehen.
+werde ich verk\"urzt auf sie eingehen.
+
 Um die finanzwirtschaftliche Ursachen zu erläutern, werde
 ich erst auf die theoretische Grundlage des Finanzsystems
 nach den Deregulierungen in den 1970er Jahren eingehen,
-sowie die der Bankentheorie. Daraufhin werde ich die Instrumente
-untersuchen, die dazu beigetragen haben, dass diese theoretische Grundlage
-nicht mehr galt --- dazu zaehlen Asset-Backed Securities (ABS),
+sowie die der Bankentheorie. Daraufhin werde ich die 
+Instrumente untersuchen, die dazu beigetragen haben,
+dass diese theoretische Grundlage nicht mehr galt --- 
+dazu geh\"oren Asset-Backed Securities (ABS),
 Collateralized Debt Obligations (CDO) und
 Credit Default Swaps (CDS). Daraufhin werde
 ich untersuchen, wie genau sie für die
@@ -65,6 +127,7 @@ die Frage erörtern, ob es andere Instrumente
 oder Anlageklassen gibt, die eine
 besondere Wirkung auf die Krise hatten, die in
 der Öffentlichkeit nicht angekommen ist.
+
 Daraufhin werde ich die kurzfristige Reaktion
 der Regulatoren und Zentralbanker ab 2008
 untersuchen. Genauer werde ich auf
@@ -73,23 +136,270 @@ Bankenrettung, (bis heute anhaltende)
 Zinssenkungen, <etc> eingehen.
 Schließlich werde ich auf die mittel- und
 langfristigen Maßnahmen, inkl. Basel
-III, CRD und <etc> eingehen. Außerdem
-werde ich mit Bezug auf Gesprächen mit
-Händlern, Risikoverwaltern und
-Investmentbankern erörtern, ob diese
-Maßnahmen die europäische
+III und CRD eingehen.
+
+Schließlich werde ich mit Bezug auf
+privaten Gesprächen mit Händlern,
+Risikoverwaltern und Investmentbankern 
+sowie \"offentliche Interviews mit F\"uhrungskr\"aften
+aus dem Finanzsektor bzw.
+Ver\"offentlichungen finanzieller Institutionen
+erörtern, ob die Maßnahmen die europäische
 Wirtschaft ausreichend auf die
 Herausforderungen der Zukunft vorbereiten.
+
+\chapter{Amerikanische Immobilienkrise}
+Über die realwirtschaftliche Ursachen der Krise besteht
+weithin Einigkeit in den Wirtschaftswissenschaften: 
+der Kreditboom in den USA und die Immobilienblase.
+Im Folgenden werde ich erläutern, wie diese entstanden
+sind und wie sie zur Krise beigetragen haben.
+
+\section{Der Hypothekenmarkt}
+Aus den f\"unfundsiebzig Millionen H\"ausern im
+Privateigentum 2007 in den USA, wurden auf etwa f\"unfzig Millionen
+Hypotheken aufgenommen (Buffett, 2018).
+In der Zeit zwischen 2002 und 2007 hat sich das
+Schulden zu Nationaleinkommen-Verhältnis
+der USA von 3,75:1 auf 4,75:1 erhöht.
+Um die letzte Erhöhung der Schulden in
+dieser Größenordnung zu erreichen, hat man davor
+das gesamte Jahrzehnt der 1990er
+gebraucht \parencite[S. 195f.]{acharyar}.
+
+Durch das Schaubild in Appendix 1 wird deutlich,
+dass der Wachstum der Immobilienpreise keine Verbindung
+mit den finanziellen Zugewinnen der Amerikaner hatte,
+und zumeist spekulativ war. 
+
+Laut dem US-amerikanischen
+Großinvestor Warren Buffett war die Einstellung
+des durchschnittlichen amerikanischen
+B\"urgers zu der Zeit,
+dass die Immobilienpreise ewig weitersteigen w\"urden,
+und basierend auf dieser Erwartung durch das Haus
+gesicherte Kredite aufgenommen haben (Buffett, 2018).
+
+\subsection{Der Subprime-Markt}
+Viele Immobilenkredite wurden von Menschen, die selbst
+in einer Niedrigzinsumgebung sich die Immobilie nicht leisten
+konnten, die sie erworben haben.
+Dazu kommen die strategischen Anreize, um Kreditnehmer
+mit wenig Bonit\"at (Subprime) zu erwerben. Dazu z\"ahlen
+Kredite ohne Einkommensbeweise (siehe Appendix II), 
+und hybride Kredite mit Teaserraten. Sie wurden in "2/28\"\-- oder
+"3/27\"\--Modellen verkauft, die sehr attraktive, fixe Zinsraten
+f\"ur die ersten zwei bzw. drei Jahre hatten, und
+f\"ur die letzten achtundzwanzig bzw.
+siebenundzwanzig exorbitant hohe Zinss\"atze\footnote{
+  wie solche Kredite m\"oglich waren, wird in 3.3 erl\"aurtert}.
+Diese waren so konstruiert, dass sie in ausgesprochen vielen
+F\"allen den Kreditnehmer zur Insolvenz f\"uhrten --
+nach diesen wenigen Jahren hatte ein Subprime--Kreditnehmer
+keine Wahl. Entweder stiegen die Immobilienpreise deutlich
+und er kann die Immobilie neu finanzieren, oder er muss
+Insolvenz erkl\"aren \parencite[S. 208]{acharyar}.
+
+Unter diesen Umst\"anden wird deutlich, dass diese eine
+Umgebung war, wo selbst eine verringterte Wachstumsrate
+der Immobilienpreise ausgereicht h\"atte,
+um den Binnenmarkt in den USA zu schaden -- wenn sich
+Menschen darauf verlassen, dass Immobilienpreise
+steigen m\"ussen, damit sie ihr Haus \"uberhaupt behalten
+d\"urfen, ist ein Sturz mit dramatischen Folgen verbunden.
+
+\section{R\"uckgang ab 2006}
+Allerdings passierte ab November 2006 genau das.
+Das Wachstum des realen HPI (House Price Index,
+Purchase Only) wurde Anfang 2006 langsamer, und
+ab November 2006 sank es (Appendix 3).
+
+In August 2006 ist der Anteil der insolventen
+Immobilien, die an Subprime Kreditnehmer verkauft wurden,
+auf 7.74\% gestiegen (vgl. August 2005: 5,53\%).
+
+Kurz daraufhin waren die ersten spezialisierte
+Kreditgeber im Bereich Subprime ebenfalls insolvent - 
+Ownit Mortgage Solutions Inc. hat Dezember 2006 Chapter 11
+Bankruptcy Protection\footnote{Demnach kann eine insolvente
+Firma eine Sanierung bzw. Reorganisation vorschlagen,
+um ihre Kredite versp\"atet zahlen zu k\"onnen, und somit
+das Gesch\"aft zu retten. In Ownits Fall war dieser Plan nicht
+erfolgreich.} beantragt. Ownit war der elftgrößte Kreditgeber
+im Subprime-Sektor \parencite{wsjdoss}. 
+
+Am 12. M\"arz 2007 hat der zweitgr\"oßte Kreditgeber im Bereich
+Subprime, New Century Financial Corporation, aufgeh\"ort, neue
+Kredite zu geben. Sie meldeten Insolvenz einen Monat sp\"ater
+an\footnote{Die Insolvenz hatte unterschiedliche Gr\"unde -
+zus\"atzlich hat New Century keine Investoren mehr gefunden
+und sie haben mehrere Sammelklagen verloren.}. 2007 haben sie noch
+etwa 60 Milliarden Dollar an Krediten vergeben \parencite{nytcres}.
+
+Subprime-Kreditnehmer, die hybride Kredite in "2/28\"\-- oder
+"3/27\"\--Modellen gekauft haben, wollten zu dieser Zeit ihre Kredite neu finanzieren.
+Allerdings war dies nicht m\"oglich, da eine Refinanzierung nach
+Wertverlust der Immobilie keinen Sinn ergibt. Dies  f\"uhrte zu
+einer Welle von Insolvenzen, die fast zwangsl\"aufig sonstige
+Wirkungen auf den US-Binnenmarkt haben w\"urde.
+Die durchschnittliche amerikanische Familie, dessen Haus
+hypothekarisch belastet war und dessen Haus etwa 35\% ihres
+Gesamtverm\"ogens betrug, hat 2008 aus diesen Gr\"unden deutlich weniger
+konsumiert als in den Vorjahren -- eine Rezession war zu erwarten. 
+\parencite[196]{acharyar}
+
+\chapter{Globale Finanzkrise}
+Warum diese Faktoren aber zu einer Finanzkrise gef\"uhrt haben,
+durch die viele der gr\"oßten Finanzinstitutionen
+der Welt gefallen sind und Kapitalm\"arkte eingefroren haben,
+ist allerdings viel weniger klar. Um die am weitesten verbreitete
+Theorie zu erkl\"aren, ist notwendig, zu verstehen, warum das
+System versagt hat. Daf\"ur werde ich erst die alte Finanzordnung vor 
+den 1980ern erkl\"aren, um daraufhin 
+
+\section{Theoretische Grundlage des modernen Bankings}
+
+
+\section{Die alte Finanzarchitektur}
+Nach der Weltwirtschaftskrise 1929 war die mehrheitliche politische
+Meinung, dass unregulierte
+Finanzm\"arkte intrinisisch instabil sein und stark reguliert
+werden m\"ussen, um schwere wirtschaftliche Krisen und politische bzw. gesellschaftliche
+Unruhe zu vermeiden. \parencite[S. 563f.]{crottycam}.
+
+Das Bretton-Woods-System,
+entwickelt nach den Vorstellungen von John Maynard Keynes,
+Hyman Minsky und Harry Dexter White, hat eine neue globale W\"ahrungs-
+und Handelsordnung in Kraft gesetzt, welche Regierungseingriffe
+in W\"ahrungs- und Finanzkrisen erleichtert, und sollten es
+vereinfachen, dass Regierungen Maßnamen (wie z.B. gegen die Arbeitslosigkeit) ergreifen
+k\"onnen, ohne sich Sorgen um ihre Zahlungsf\"ahigkeit machen zu m\"ussen.
+
+Durch die IMF und die Weltbank sollten Liquidit\"atsprobleme
+vermieden werden und Regierungen und Regulatoren langfristig handlungsf\"ahiger werden
+\parencite[S. 31f.]{bordo}.
+
+\section{Die neue Finanzarchitektur}
+Wirtschaftliche Turbulenzen in den 1970er Jahren f\"uhrten
+zu einen Paradigmenwechsel: die \"Uberzeugung, dass staatliche
+Vorschriften im Finanzsektor mehr Schaden als Nutzen anrichten.
+\"Uber die Zeit ersetzte die neoklassische Theorie den 
+Keynesianismus und die enge regulatorische Umgebung wurde gelockert
+-- Geschäftsbanken sollten wenig reguliert werden, Investmentbanken
+noch weniger und Schattenbanken (bspw. Hedge- und Private-Equity-Fonds) kaum.
+
+Die Maßnahmen der Deregulierung in den USA fingen in 1980 an. Der
+\textit{Depository Institutions Deregulation and Monetary Control Act (DIDMCA)}
+entfernte die Zinsobergrenze und erteilte Banken und anderen
+finanziellen Institutionen die Erlaubnis, Darlehen mit variablen
+ Zinsen zu vergeben\footnote{Wegen DIDMCA k\"onnen bis heute
+ Institutionen, die Kurzzeitkredite an Subprime-Kreditnehmer
+ vergeben, Zinss\"atze bis 700\% im Jahr zu verlangen.}
+\parencite[6--8]{sherman2009short}.
+
+Zwar hat DIDMCA die Dynamik des Kreditmarktes in Amerika nachhaltig
+ver\"andert, allerdings war die einflussreichste Deregulierungsmaßname
+die Lockerung und anschließende Aufhebung des
+\textit{Glass-Steagall Act of 1933}.
+Die gesetzliche Trennung zwischen Geschäfts- und Investment-Banken
+beabsichtigte eine Vermeidung von Interessenkonflikten und 
+\"uberm\"aßiger Risikobereitschaft durch Geschäftsbanken.
+In der Praxis bedeutete das, dass eine Gesch\"aftsbank keine 
+Verbriefungen b\"urgen oder verkaufen konnte und ausschließlich
+erstklassige Wertpapiere f\"ur sich kaufen konnte.
+
+In 1986 hat die \textit{Federal Reserve} Glass-Steagall neu interpretiert:
+Geschäftsbanken durften bis zu 5\% ihres Umsatzen durch Investmentbanking
+erzeugen.
+
+In 1996 ist die \textit{Federal Reserve} einen Schritt weiter gegangen:
+Bankholdinggesellschaften durften bis zu 25\% ihres Umsatzes durch
+Investmentbanking generieren, was Glass-Steagall in der Praxis aufhebt,
+da nahezu alle Institutionen unter der 25\%-Grenze bleiben k\"onnten.
+In 1999 hat die Clinton-Regierung Glass-Steagall offiziell aufgehoben.
+
+Ein weiterer Schritt war die \textit{
+  Riegle-Neal  Interstate  Banking  and  Branching Efficiency Act}, die
+die Restriktionen des Bankings \"uber die Grenzen eines US-Bundesstaats
+entfernt hat. Durch Fusionen sank die Zahl der amerikanischen 
+Banken um 27\% zwischen 1990 und 1998 \parencite[8--12]{sherman2009short}.
+
+\subsection{Strukturelle Probleme}
+Der postkeynesische \"Okonom James Crotty behauptet, die neue Finanzstruktur
+habe auch in der Theorie Probleme. Ein Hauptargument der Neoklassik sei, dass
+Kapitalm\"arkte Wertpapiere richtig bepreisen und das Risiko gut einsch\"atzen
+k\"onnen. Marktteilnehmer seien dementsprechend in der Lage,
+richtige Entscheidungen entsprechend ihres Risikoprofils zu treffen.
+Somit seien Finanzkrisen sehr unwahrscheinlich, da Marktteilnehmer nur so viel
+Risiko aufnehmen w\"urden, wie sie tragen k\"onnen. Allerdings soll dieses Argument
+keine empirische Beweise haben und auf unrealistische Annahmen basiert sein 
+\parencite[563--565]{crottycam}.
+
+\section{Finanzielle Innovation und strukturierte Produkte}
+Finanzielle Innovation in Verbriefungen hat zu Instrumenten gef\"uhrt,
+die so komplex sind, dass sie zwangsl\"aufig intransparent sind, und dementsprechend
+kann die Theorie des fairen Preises durch den Markt auf komplexe strukturierte Produkte
+nicht angewandt werden.
+
+Eine MBS besteht aus mehreren Tausenden Hypotheken
+und eine hypothekenbesicherte CDO (Collateralized Debt 
+Obligation) aus bis zu 150 MBS. Eine CDO wird in viele
+Tranchen nach Risiko geteilt. Die 
+
+Eine \textit{CDO-Squared}
+ist eine CDO, die Tranchen vieler CDOs als Sicherungsgegenst\"ande verwendet.
+Eine \textit{CDO-Squared} ist nahezu unm\"oglich, fair zu bepreisen. Das liegt teilweise
+daran, dass eine gleiche MBS in mehreren CDOs vielfach vorkommen kann.
+
+Laut Prof. Dr. George Chacko der Harvard Business School gibt es kein
+allgemein verwendbares Modell bzw. Formel die diese Rechnungen durchf\"uhren kann
+und praktisches Nutzen hat \parencite[226]{chackocred}. Ratingagenturen lassen
+hochkomplexe Simulationen tagelang laufen, um das Risiko eines \textit{CDO-Squared}
+einsch\"atzen zu k\"onnen.
+
+Produkte wie CDOs konnten w\"ahrend des Booms zwar verkauft werden, da  
+es ausreichend Spekulatoren gab und die Marktbedingungen historisch freundlich waren.
+
+Allerdings hat man, als die Krise angefangen hat, gemerkt, dass eigentlich niemand weiß,
+wie viel CDOs tats\"achlich wert sind.
+
+\subsection{Einfluss auf Europa}
+EU sauce
+\section{\foreignquote*{english}{Skin in the Game} - Versagen des Risikomanagements}
+\section{VAR-Modellierung}
+\chapter{Kurzfristige Maßnahmen der Regulatoren}
+
+\chapter{Mittel- und langfristige Maßnahmen der Regulatoren}
+
+\chapter{Fazit und Handlungsempfehlungen}
+\nocite{gs1}
+
+\newpage
+\printbibliography[
+  heading=bibintoc,
+  title={Literaturverzeichnis}
+  ]
+
 \end{document}
 http://web.mit.edu/rsi/www/pdfs/new-latex.pdf
 http://web.mit.edu/rsi/www/pdfs/bibtex-format.pdf
 http://www.ir.rochelleterman.com/sites/default/files/Helleiner%202011.pdf
 Quelle 1: https://www.federalreserve.gov/econresdata/releases/mortoutstand/mortoutstand20090331.htm
 Quelle 2: https://web.archive.org/web/20090419051155/http://www.sifma.org/uploadedFiles/Research/Statistics/SIFMA_USBondMarketOutstanding.pdf
+Quelle 3: https://fraser.stlouisfed.org/timeline/financial-crisis
+Quelle 4 (Doss, 2007): https://www.wsj.com/articles/SB116775515272364964
+Quelle 5 (Creswell \& Bajaj, 2007): https://www.nytimes.com/2007/04/03/business/03lend.html
 https://academic.oup.com/cje/article/33/4/563/1730705
-https://www.goldmansachs.com/insights/pages/learning-from-a-century-us-recessions/report.pdf
-
-ä
-ö
-ü
+GS: https://www.goldmansachs.com/insights/pages/learning-from-a-century-us-recessions/report.pdf
+Buffett: https://www.youtube.com/watch?v=MQcPC31KRqA
+Dimon: https://www.youtube.com/watch?v=QE3QwTA5ujE
+Dimon text: https://www.jpmorganchase.com/corporate/investor-relations/document/annualreport-2018.pdf
+EU: https://europa.eu/rapid/press-release_MEMO-08-123_en.htm?locale=en
+ä \"a
+ö \"o
+ü \"u
 ß
+(28.09.19)
+Ap. 1: mit Macro Bond selbst erstellt
+Ap. 2: https://commons.wikimedia.org/wiki/File:P060708_22.03-02-retouched.jpg
+Ap. 3: https://www.advisorperspectives.com/images/content_image/data/6c/6c77ccb14b1810a345ed768e3f8d5272.png
