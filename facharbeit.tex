@@ -1,4 +1,4 @@
-\documentclass[a4paper,draft,11pt]{report}
+\documentclass[a4paper,11pt]{report}
 \usepackage[T1]{fontenc}
 \usepackage[english,ngerman]{babel}
 \usepackage[utf8]{inputenc}
@@ -15,6 +15,8 @@
   sortlocale=de_DE
 ]
 {biblatex}
+\usepackage{graphicx}
+\graphicspath{ {./appendix/} }
 \DeclareNameAlias{sortname}{last-first}
 \DeclareFieldFormat*{title}{#1}
 \DefineBibliographyStrings{ngerman}{
@@ -51,7 +53,7 @@
     \textit{eingereicht bei} \\
     Herrn Visser \\ \\
     \textit{vorgelegt von} \\
-    Gabriel Tomitsuka 
+    Gabriel de Souza Tomitsuka 
     }
 \date{Herford, Oktober 2019}
 \maketitle
@@ -181,7 +183,7 @@ und basierend auf dieser Erwartung durch das Haus
 gesicherte Kredite aufgenommen haben (Buffett, 2018).
 
 \subsection{Der Subprime-Markt}
-Viele Immobilenkredite wurden von Menschen, die selbst
+Viele Immobilienkredite wurden von Menschen, die selbst
 in einer Niedrigzinsumgebung sich die Immobilie nicht leisten
 konnten, die sie erworben haben.
 Dazu kommen die strategischen Anreize, um Kreditnehmer
@@ -256,9 +258,6 @@ ist allerdings viel weniger klar. Um die am weitesten verbreitete
 Theorie zu erkl\"aren, ist notwendig, zu verstehen, warum das
 System versagt hat. Daf\"ur werde ich erst die alte Finanzordnung vor 
 den 1980ern erkl\"aren, um daraufhin 
-
-\section{Theoretische Grundlage des modernen Bankings}
-
 
 \section{Die alte Finanzarchitektur}
 Nach der Weltwirtschaftskrise 1929 war die mehrheitliche politische
@@ -335,16 +334,180 @@ Risiko aufnehmen w\"urden, wie sie tragen k\"onnen. Allerdings soll dieses Argum
 keine empirische Beweise haben und auf unrealistische Annahmen basiert sein 
 \parencite[563--565]{crottycam}.
 
-\section{Finanzielle Innovation und strukturierte Produkte}
-Finanzielle Innovation in Verbriefungen hat zu Instrumenten gef\"uhrt,
-die so komplex sind, dass sie zwangsl\"aufig intransparent sind, und dementsprechend
-kann die Theorie des fairen Preises durch den Markt auf komplexe strukturierte Produkte
-nicht angewandt werden.
+\section{Grundlage des modernen Bankings}
+Die klassische Theorie des Bankings ist, dass Banken als Vermittler
+zwischen Einleger und Kreditnehmer agieren. Kreditgeber legen ihr Geld
+in die Bank ein und kriegen daf\"ur Zinsen, w\"ahrend die Banken die
+Bonit\"at der m\"oglichen Kreditnehmer evaluieren und dementsprechend
+Entscheidungen treffen, wem sie Geld leihen.
 
-Eine MBS besteht aus mehreren Tausenden Hypotheken
-und eine hypothekenbesicherte CDO (Collateralized Debt 
-Obligation) aus bis zu 150 MBS. Eine CDO wird in viele
-Tranchen nach Risiko geteilt. Die 
+Dadurch, dass das Geld der Kreditgeber angelegt wird, kann nicht jeder
+Kreditgeber sein Geld zum gleichen Zeitpunkt zur\"uckfordern, obwohl er
+in den meisten F\"allen einen Anspruch darauf hat -- Um dieses Risiko
+zu vermeiden, werden Einlagen bis zu einem bestimmten Niveau durch
+die Regierung gesichert (in den USA 100 Tausend Dollar, in der EU 100 Tausend Euro).
+
+Im Gegenzug erwarten Regierungen, dass Banken bestimmte Kapitalpuffer
+bereithalten. Zu dem Zeitpunkt der Krise war das mindestens 8 Prozent\footnote{
+  Diese Zahl wird durch die Bank für Internationalen Zahlungsausgleich
+  festgelegt. Mitglieder sind nahezu alle Industrienationen und viele
+  weitere Entwicklungsl\"ander.
+} des Kapitals der Bank. \parencite[197--198]{acharyar}
+
+Allerdings ist es aus Bankenperspektive unglaublich teuer, so viel
+Kapital als Puffer zu halten. Es gibt aber einen Ausweg.
+
+\subsection{Verbriefungen}
+Im amerikanische Bankensystem waren im Jahre 2008 etwa 7 Billionen US-Dollar
+in Einlagen und etwa 14 Billionen US-Dollar an Krediten\footnote{
+  Davon waren \$1,3 Billionen Subprime-Hypotheken, \$3,3 Billionen kommerzielle
+  Hypotheken und \$5.8 Billionen Prime-Hypotheken.}.
+Der Grund f\"ur diese Diskrepanz sind Verbriefungen --
+durch sie werden Banken nicht mehr nur Vermittler
+zwischen Einleger und Kreditnehmer, sondern zwischen
+\textit{Investoren} und Kreditnehmer.
+
+Im Gegensatz zu Anlegern brauchen Investoren klare
+Zahlungsstr\"ome und m\"ussen wissen, wo und wie 
+ihr Geld investiert wird. Außerdem m\"ussen
+das genaue Risiko einzustufen -- diese Rolle
+wurde den Ratingagenturen wie Fitch Ratings, Moody's und S\&P
+abgegeben.
+
+\textit{Mortgage-Backed Securities (MBS)} sind die
+\"altesten und am gr\"oßten bis heute eingesetzte
+Verbriefungen. Sie bestehen aus den Geldfl\"ussen
+von Zins- und Tilgungszahlungen
+mehreren Tausenden Hypotheken. Sie sind mit zwei
+Risiken verbunden: eine Fr\"uhtilgung
+oder die Insolvenz des Kreditnehmers. 
+Amerikanische Immobilien waren mehrheitlich verbrieft --
+etwa 55\% der Immobilienkredite waren .
+
+
+In diesem Rahmen sind die Geb\"uhren, die Banken
+durch Verbriefungen verdienen, zu einer
+Haupteinnahmequelle der Banken geworden. Da eine
+Bank duch das Veraufen einer Verbriefung
+das Risiko an eine andere Person oder Institution
+\"ubertr\"agt, braucht sie keine Kapitalpuffer.
+
+Ein Vorteil des System der Verbriefungen
+ist, dass wenn fehlerfrei angewandt, es Risiko
+so aufteilt, dass Risiko nicht auf eine Institution
+konzentriert ist, sondern immer auf vielen Marktteilnehmern,
+die nur so viel Risiko aufnehmen, wie sie tragen k\"onnen.
+Das reduziert das allgemeine systematische Risiko \parencite[198--201]{acharyar}.
+Allerdings gibt es auch große Probleme.
+
+\subsection{Falsche Anreize}
+Durch die \"Ubertragung des Risikos werden
+viele falsche Anreize f\"ur Vermittler geschaffen. 
+Das l\"asst sich leicht am Beispiel der Subprime-Hypotheken merken.
+Wie in Abbildung 2 ersichtlich (siehe Appendix), haben viele
+Hypothekenspezialisten und -banken keinen Grund gehabt, die 
+Bonit\"at ihrer Kunden zu \"uberprufen, da sie die Hypotheken
+an eine große Bank unabh\"angig davon verkaufen k\"onnten
+und ihre Kommission verdienen w\"urden, egal was den 
+Immobilien passiert \parencite[565]{crottycam}.
+
+Die großen Investmentbanken haben ebenfalls falsche Anreize geschaffen.
+Die Formel zur Bildung der Bonussen hat ausschließlich auf die sofortigen
+Gewinne bzw. Verluste durch die Bildung und den Verkauf der Verbriefungen.
+Die mittel- und langfristigen Folgen ihrer Entscheidungen war hierbei irrelevant.
+Merill Lynch, die Investmentbank die im Rahmen der Finanzkrise von
+Bank of America aufgekauft werden musste, um am Leben zu bleiben,
+dient hier als gutes Beispiel. Sie haben 2008 \$3.6 an Bonussen ausgesch\"uttet,
+obwohl die Bank \$27 Milliarden verloren hat (genug, um fast zehn Jahre an Profiten
+\enquote{auszugleichen}) \parencite[565]{crottycam}.
+
+Kreditratingagenturen haben eine große Rolle gespielt, da zum einen
+die Größe der Kapitalpuffer
+von dem Rating der Anlagen abh\"angig ist, und Banken
+oft aus verschiedenen Gr\"unden ihre eigenen Verbriefungen
+gekauft haben. Dadurch, dass die Kredite in Triple-A-Wertpapiere
+verpackt waren, mussten Baken deutlich weniger Kapitalpuffer halten
+ -- im System nach Basel II brauchte ein Triple-A-Wertpapier
+ nur die H\"alfte des Kapitalpuffers eines klassischen Kredits.
+
+Investmentbanken haben die Tatsache ausgenutzt,
+dass sie frei w\"ahlen durften, welche Agentur f\"ur die
+Ratings ihrer Kreditprodukte verantwortlich ist. Wenn die Ratings
+einer Agentur schlechter als gehofft waren, haben sie Agenturen
+gewechselt.
+
+Dadurch erm\"oglichten Kreditratingagenturen
+den Verkauf an Institutionen wie Geldmarktfonds,
+die gesetzlich dazu
+verpflichtet sind, haupts\"achlich in die sichersten Wertpapiere
+zu investieren. Da diese Fonds grunds\"atzlich
+wenige sehr rentable M\"oglichkeiten haben,
+waren f\"ur sie indirekte Investitionen in 
+MBS und CDOs besonders attraktiv. Diese geschahen \"uber
+\textit{Asset-Backed Commercial Paper} (ABCP), die oft ignoriert werden.
+
+Diese waren f\"ur Banken sehr risikoreich,
+da Geldmarktfonds nur kurzfristig
+geliehen haben -- Banken mussten regelm\"aßig ihre Schulden erneuern.
+Sie haben also kurzfristig geliehenes Kapital, das jederzeit verschwinden
+konnte, verwendet, um illiquide Wertpapiere, die langfristig gehalten wurden,
+zu finanzieren \parencite[201]{acharyar}.
+
+Banken haben diese Strategie verwendet um Verbriefungskommissionen
+zu erh\"ohen, und das war in den Boomjahren extrem profitabel.
+Als sich die Lage auf dem Subprime-Kreditmarkt aber verschlechtert hat,
+haben sich diese Fonds entschieden, ihre Kredite nicht zu erneuern.
+Da Investmentbanken die Wertpapiere in den ABCPs garantiert haben, mussten
+sie diese nun auf ihre eigene Bilanz zur\"uckbringen. Ungef\"ahr \$400 Milliarden
+an Verbriefungen haben dadurch im Jahre 2008 die Bilanzen globaler Banken
+erreicht \parencite[570]{crottycam}.
+
+Im Interview mit mir erkl\"arte T. Rossi, dass dieser Aspekt
+zum Fall von Lehman Brothers und Merill Lynch gef\"uhrt hat.
+Diese Banken haben vom einen Tag auf den n\"achsten Hunderte
+Milliarden mehr an Verbindlichkeiten gehabt, ohne einen Cent
+Kapital daf\"ur zu haben.
+Dadurch mussten Banken in wenigen Monaten
+mehr Kapital auftreiben, als ihre Bank wert ist (siehe Appendix: Interview 3).
+Kaum Investoren waren \"uberhaupt in der Lage,
+die ben\"otigte Mengen an Kapital in die Banken zu treiben.
+
+Goldman Sachs sank ihren Verschuldungsgrad und konnte
+durch ein Deal mit Warren Buffett 
+ausreichend Kapital auftreiben \parencite{buffettyt}, und wenige Investmentbanken wie 
+J.P. Morgan haben 2006/07 schon ihr Risiko im Immobilienmarkt
+verkleinert und angefangen, Kapital aufzutreiben \parencite{dimonyt}.
+
+Allerdings haben viele Banken versucht, so viel Geld aus
+der Immobilienblase wie m\"oglich zu verdienen\footnote{
+  CEO der Citigroup in 2007: \foreignquote*{english}{
+    When the music stops, in terms of liquidity, things will be complicated.
+    But as long as the music is playing, you've got to get up and dance.
+    We're still dancing}
+}, und waren daher in einer so schlechten Lage,
+dass die Optionen entweder die Insolvenz oder die Rettung
+durch die Regierung waren (siehe Appendix: Interview 3).
+
+\subsection{Blick auf europ\"aische Institutionen}
+Viele der großen europäischen Banken waren auf dem amerikanischen
+Immobilienmarkt aktiv, und haben im CDO-Markt gehandelt.
+Verluste erlitten sie 
+
+\section{Finanzielle Innovation und strukturierte Produkte}
+Finanzielle Innovation ist f\"ur strukturierte
+Kreditprodukte verantwortlich, die so komplex sind, dass sie
+zwangsl\"aufig intransparent sind. Dementsprechend
+kann die Theorie des fairen Preises durch den Markt 
+auf komplexe strukturierte Produkte nicht angewandt werden \parencite{crottycam}.
+
+Eine hypothekenbesicherte CDO (Collateralized Debt 
+Obligation) besteht aus bis zu 150 MBS.
+Eine CDO wird in viele
+Tranchen aufgeteilt (daher strukturiert), je nach dem wie viel Risiko von ihr erwartet wird.
+Die Juniortranchen sind risikoreicher, da Verluste zuerst bei
+ihnen ankommen -- daf\"ur haben sie viel h\"ohere Zinsen.
+Erst wenn die Juniortranchen wertlos sind
+kommen Verluste bei den Seniortranchen an.
 
 Eine \textit{CDO-Squared}
 ist eine CDO, die Tranchen vieler CDOs als Sicherungsgegenst\"ande verwendet.
@@ -354,31 +517,87 @@ daran, dass eine gleiche MBS in mehreren CDOs vielfach vorkommen kann.
 Laut Prof. Dr. George Chacko der Harvard Business School gibt es kein
 allgemein verwendbares Modell bzw. Formel die diese Rechnungen durchf\"uhren kann
 und praktisches Nutzen hat \parencite[226]{chackocred}. Ratingagenturen lassen
-hochkomplexe Simulationen tagelang laufen, um das Risiko eines \textit{CDO-Squared}
+hochkomplexe Simulationen tagelang laufen, um die
+Gr\"oßenordnung des Risikos eines \textit{CDO-Squared}
 einsch\"atzen zu k\"onnen.
 
-Produkte wie CDOs konnten w\"ahrend des Booms zwar verkauft werden, da  
-es ausreichend Spekulatoren gab und die Marktbedingungen historisch freundlich waren.
+Produkte wie CDOs konnten w\"ahrend des Booms zwar K\"aufer finden, da  
+es ausreichend Spekulatoren gab und die Marktbedingungen besonders
+freundlich waren.
 
-Allerdings hat man, als die Krise angefangen hat, gemerkt, dass eigentlich niemand weiß,
-wie viel CDOs tats\"achlich wert sind.
+Allerdings hat man, als die Krise angefangen hat, gemerkt, dass niemand weiß,
+wie viel CDOs tats\"achlich wert waren -- und mit der Zeit wurden immer mehr
+Marktteilnehmern klar, dass Ratingagenturen komplexer Instrumente versch\"atzt haben.
 
-\subsection{Einfluss auf Europa}
-EU sauce
-\section{\foreignquote*{english}{Skin in the Game} - Versagen des Risikomanagements}
-\section{VAR-Modellierung}
+Diese Erkenntnis f\"uhrte zu einem Wettlauf, wer am schnellsten bzw. mit den wenigsten
+Verlusten ihre CDOs loswerden kann. Das f\"uhrte dazu, dass selbst die sichersten
+Seniortranchen von CDOs einen Wertverlust von 32\% erlitten, w\"ahrend Juniortranchen mit
+Triple-A-Rating einen Wertverlust von 60\% erlitten \parencite[567]{crottycam}.
+
 \chapter{Kurzfristige Maßnahmen der Regulatoren}
 
 \chapter{Mittel- und langfristige Maßnahmen der Regulatoren}
 
-\chapter{Fazit und Handlungsempfehlungen}
-\nocite{gs1}
+\chapter{Zukunft: Fazit und Handlungsempfehlungen}
+Laut dem Chef\"okonom von Goldman Sachs, Jan Hatzius, wurde nach der Finanzkrise
+das System grunds\"atzlich in eine bessere Lage versetzt, mit Krisen umzugehen.
+
+Laut ihm seien die f\"unf Hauptgr\"unde f\"ur Rezessionen in
+Industrienationen:
+
+\begin{itemize}
+  \item Industrieschocks bzw. Ungleichgewichte in der Produktion
+  \item \"Olschocks
+  \item Inflation\"ares \"Uberhitzen der Wirttschaft
+  \item Eine gestraffte Geldpolitik
+  \item Finanzrisiko (bspw. finanzielle Ungleichgewichte oder 
+  Absturz des Werts von Assets).
+\end{itemize}
+
+Die ersten drei Ursachen sind strukturell weniger gef\"ahrlich geworden,
+bspw. durch Verkleinerung von zyklischen Sektoren und besserer
+Bestandsverwaktung, strategischen \"Olreserven, und besserer Geldpolitik, die zu 
+einer flacheren Philipps-Kurve f\"uhrt.
+
+Die vierte Ursache
+sei zwar noch eine realistische Gefahr, da wir in einer Zeit von 
+Ursicherheit, Dysfunktion und politischer Polarisierung leben,
+aber deutlich ungef\"ahrlicher als im 20. Jahrhundert.
+
+Die f\"unfte Ursache sei auch immer noch ein ernst zu
+nehmende Gefahr, aber durch neue Regulationen nach der Finanzkrise
+2008 viel weniger gef\"ahrlich als zuvor \parencite{gs1}.
 
 \newpage
 \printbibliography[
   heading=bibintoc,
   title={Literaturverzeichnis}
   ]
+
+\newpage
+
+\chapter{Appendix}
+
+\textbf{Abbildung 1: Abstand zwischen realem Einkommen
+und Immobilienpreise}
+\begin{figure}[h]
+\includegraphics[height=8.5cm]{abb1}
+\end{figure}
+
+Dieser Graph wurde von Gabriel de Souza Tomitsuka mithilfe von Macrobond erstellt.
+\newline
+
+\textbf{Abbildung 2: Subprime-Kreditgeber}
+\newline
+\includegraphics[height=8.5cm]{abb2}
+\newpage
+\textbf{Abbildung 3: Wachstum und Fall des HPIs}
+\newline
+\includegraphics[width=\textwidth]{abb3}
+
+\textbf{Abbildung 4: Preis unterschiedlicher Subprime Triple-A CDO-Tranchen, 2007-2008}
+\newline
+\includegraphics[width=\textwidth]{abb4}
 
 \end{document}
 http://web.mit.edu/rsi/www/pdfs/new-latex.pdf

@@ -89,6 +89,35 @@
     \field{urlyear}{2019}
   \endentry
 
+  \entry{buffettyt}{online}{}
+    \name{author}{1}{}{%
+      {{hash=BW}{%
+         family={Buffett},
+         familyi={B\bibinitperiod},
+         given={Warren},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BW1}
+    \strng{fullhash}{BW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{subtitle}{CNBC Interview with Andrew Ross Sorkin}
+    \field{title}{Warrem Buffett On The 2008 Crisis}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=MQcPC31KRqA
+    \endverb
+    \field{month}{09}
+    \field{year}{2018}
+    \field{urlday}{29}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
   \entry{chackocred}{book}{}
     \name{author}{4}{}{%
       {{hash=CG}{%
@@ -216,7 +245,7 @@
     \field{labeldatesource}{year}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{subtitle}{CNBC Interview mit Andrew Ross Sorkin}
+    \field{subtitle}{CNBC Interview with Andrew Ross Sorkin}
     \field{title}{Jamie Dimon On The 2008 Crisis}
     \verb{url}
     \verb https://www.youtube.com/watch?v=QE3QwTA5ujE
