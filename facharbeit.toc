@@ -1,44 +1,68 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{2}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Themawahl}{2}
+\contentsline {section}{\numberline {1.1}Themenwahl}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Vorgang}{2}
+\contentsline {section}{\numberline {1.2}Vorgehensweise}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Amerikanische Immobilienkrise}{3}
+\contentsline {chapter}{\numberline {2}Amerikanische Immobilienkrise}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Der Hypothekenmarkt}{3}
+\contentsline {section}{\numberline {2.1}Der Hypothekenmarkt}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Der Subprime-Markt}{4}
+\contentsline {subsection}{\numberline {2.1.1}Der Subprime-Markt}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}R\"uckgang ab 2006}{4}
+\contentsline {section}{\numberline {2.2}R\"uckgang ab 2006}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Globale Finanzkrise}{5}
+\contentsline {chapter}{\numberline {3}Globale Finanzkrise}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Die alte Finanzarchitektur}{5}
+\contentsline {section}{\numberline {3.1}Die alte Finanzarchitektur}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Die neue Finanzarchitektur}{5}
+\contentsline {section}{\numberline {3.2}Die neue Finanzarchitektur}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Strukturelle Probleme}{6}
+\contentsline {subsection}{\numberline {3.2.1}Strukturelle Probleme}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Grundlage des modernen Bankings}{6}
+\contentsline {section}{\numberline {3.3}Banking in der Theorie und Praxis}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Verbriefungen}{7}
+\contentsline {subsection}{\numberline {3.3.1}Verbriefungen}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Falsche Anreize}{7}
+\contentsline {subsection}{\numberline {3.3.2}Falsche Anreize}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Blick auf europ\"aische Institutionen}{9}
+\contentsline {section}{\numberline {3.4}Finanzielle Innovation und strukturierte Produkte}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Finanzielle Innovation und strukturierte Produkte}{9}
+\contentsline {subsection}{\numberline {3.4.1}Blick auf europ\"aische Institutionen}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Kurzfristige Ma\IeC {\ss }nahmen der Regulatoren}{10}
+\contentsline {chapter}{\numberline {4}Folgen und Ma\IeC {\ss }nahmen}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Mittel- und langfristige Ma\IeC {\ss }nahmen der Regulatoren}{10}
+\contentsline {section}{\numberline {4.1}Kurzfristige Folgen}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Zukunft: Fazit und Handlungsempfehlungen}{10}
+\contentsline {subsection}{\numberline {4.1.1}Interbankenhandel}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Literaturverzeichnis}{11}
+\contentsline {subsection}{\numberline {4.1.2}Auswirkung auf die Realwirtschaft und Staatsfinanzierung}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Appendix}{12}
+\contentsline {section}{\numberline {4.2}Kurzfristige Ma\IeC {\ss }nahmen}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Bankenrettung}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Mittel- und langfristige Ma\IeC {\ss }nahmen}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Entzug der Notfallautorit\"at der US-Notenbank}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Staatsfinanzierung}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Basel III}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Zukunft}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Zukunft der Banken und des Systems}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Zukunft der Wirtschaft}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Fazit und Handlungsempfehlungen}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Literaturverzeichnis}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Selbstst\"andigkeitserkl\"arung}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Appendix}{16}

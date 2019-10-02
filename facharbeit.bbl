@@ -53,6 +53,66 @@
     \field{urlyear}{2019}
   \endentry
 
+  \entry{baseliii}{online}{}
+    \name{author}{1}{}{%
+      {{hash=oBSBC}{%
+         prefix={on},
+         prefixi={o\bibinitperiod},
+         family={Banking\bibnamedelima Supervision},
+         familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Basel\bibnamedelima Committee},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BSBCo1}
+    \strng{fullhash}{BSBCo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Finalising Basel III - In brief}
+    \verb{url}
+    \verb https://www.bis.org/bcbs/publ/d424_inbrief.pdf
+    \endverb
+    \field{month}{12}
+    \field{year}{2017}
+    \field{urlday}{24}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{dbnotabb}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BS}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BS1}
+    \strng{fullhash}{BS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Kommt die nächste globale Liquiditätsschwemme?}
+    \verb{url}
+    \verb https://www.dbresearch.de/PROD/RPS_DE-PROD/PROD0000000000471534/Kommt
+    \verb _die_n%C3%A4chste_globale_Liquidit%C3%A4tsschwemme%3F.PDF
+    \endverb
+    \field{journaltitle}{Deutsche Bank Research}
+    \field{month}{04}
+    \field{year}{2009}
+    \field{urlday}{25}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
   \entry{bordo}{inbook}{}
     \name{author}{1}{}{%
       {{hash=BM}{%
@@ -85,35 +145,6 @@
     \field{month}{03}
     \field{year}{1992}
     \field{urlday}{27}
-    \field{urlmonth}{09}
-    \field{urlyear}{2019}
-  \endentry
-
-  \entry{buffettyt}{online}{}
-    \name{author}{1}{}{%
-      {{hash=BW}{%
-         family={Buffett},
-         familyi={B\bibinitperiod},
-         given={Warren},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BW1}
-    \strng{fullhash}{BW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{labeldatesource}{year}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{subtitle}{CNBC Interview with Andrew Ross Sorkin}
-    \field{title}{Warrem Buffett On The 2008 Crisis}
-    \verb{url}
-    \verb https://www.youtube.com/watch?v=MQcPC31KRqA
-    \endverb
-    \field{month}{09}
-    \field{year}{2018}
-    \field{urlday}{29}
     \field{urlmonth}{09}
     \field{urlyear}{2019}
   \endentry
@@ -286,6 +317,97 @@
     \field{urlyear}{2019}
   \endentry
 
+  \entry{eurostat}{article}{}
+    \list{publisher}{1}{%
+      {Eurostat Pressemitteilung 116/2009}%
+    }
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Eurostat}
+    \verb{url}
+    \verb https://web.archive.org/web/20120129070403/http://epp.eurostat.ec.eur
+    \verb opa.eu/cache/ITY_PUBLIC/4-12082009-AP/DE/4-12082009-AP-DE.PDF
+    \endverb
+    \field{day}{12}
+    \field{month}{08}
+    \field{year}{2009}
+    \field{urlday}{29}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{geithneryt}{online}{}
+    \name{author}{1}{}{%
+      {{hash=GT}{%
+         family={Geithner},
+         familyi={G\bibinitperiod},
+         given={Timothy},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GT1}
+    \strng{fullhash}{GT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{subtitle}{CNBC Interview with Andrew Ross Sorkin}
+    \field{title}{Former NY Fed Pres. Geithner On The 2008 Crisis}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=0yuKLHG0dGs
+    \endverb
+    \field{month}{09}
+    \field{year}{2018}
+    \field{urlday}{29}
+    \field{urlmonth}{09}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{iwregulation}{book}{}
+    \name{author}{3}{}{%
+      {{hash=HWT}{%
+         family={Hartmann-Wendels},
+         familyi={H\bibinitperiod-W\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hellwig},
+         familyi={H\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JAM}{%
+         family={Jäger-Ambrozewicz},
+         familyi={J\bibinitperiod-A\bibinitperiod},
+         given={Manfred},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Institut der deutschen Wirtschaft Köln}%
+    }
+    \strng{namehash}{HWTHMJAM1}
+    \strng{fullhash}{HWTHMJAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{isbn}{978-3-602-14862-2}
+    \field{title}{Arbeitsweise der Bankenaufsicht vor dem Hintergrund der
+  Finanzmarktkrise}
+    \field{day}{17}
+    \field{month}{08}
+    \field{year}{2010}
+  \endentry
+
   \entry{gs1}{article}{}
     \true{moreauthor}
     \name{author}{1}{}{%
@@ -314,6 +436,35 @@
     \field{year}{2019}
     \field{urlday}{15}
     \field{urlmonth}{07}
+    \field{urlyear}{2019}
+  \endentry
+
+  \entry{paulsonyt}{online}{}
+    \name{author}{1}{}{%
+      {{hash=PH}{%
+         family={Paulson},
+         familyi={P\bibinitperiod},
+         given={Hank},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PH1}
+    \strng{fullhash}{PH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{subtitle}{CNBC Interview with Andrew Ross Sorkin}
+    \field{title}{Hank Paulson On The 2008 Crisis}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=DsZ28xn9ATo
+    \endverb
+    \field{month}{09}
+    \field{year}{2018}
+    \field{urlday}{29}
+    \field{urlmonth}{09}
     \field{urlyear}{2019}
   \endentry
 
